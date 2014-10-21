@@ -1,0 +1,15 @@
+<package>
+  <name>rtros</name>
+  <version>0.0.1</version>
+  <description>Real-Time ROS library librtros based on TiMS</description>
+  <maintainer email="sesmo@gmx.net">Sebastian Smolorz</maintainer>
+  <license>LGPLv2.1</license>
+
+  <author email="sesmo@gmx.net">Sebastian Smolorz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>roscpp</run_depend>
+</package>
