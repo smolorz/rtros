@@ -61,7 +61,7 @@ public:
         
         dataBuffer = getDataBufferWorkSpace();
         datalength = getDataBufferMaxDataSize();
-        memcpy(dataBuffer, &message.data, datalength);
+        memcpy(dataBuffer, &message, datalength);
         putDataBufferWorkSpace(datalength);
     }
 
